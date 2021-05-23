@@ -19,7 +19,7 @@
     #   %I  iconname (without its path)
     #   %p  progress value if set ([  0%] to [100%]) or nothing
     # Markup is allowed
-    format = "<i>%s</i>\n%b"
+    format = "<b>%s</b>\n%b"
 
     # Sort messages by urgency
     sort = no
@@ -68,7 +68,7 @@
     # Don't remove messages, if the user is idle (no mouse or keyboard input)
     # for longer than idle_threshold seconds.
     # Set to 0 to disable.
-    idle_threshold = 0
+    idle_threshold = 25
 
     # Which monitor should the notifications be displayed on.
     monitor = 0
@@ -121,7 +121,7 @@
     dmenu = /usr/bin/dmenu -p dunst:
 
     # browser for opening urls in context menu
-    browser = /usr/bin/google-chrome
+    browser = /usr/bin/firefox -new-tab
 
 [frame]
     width = 0

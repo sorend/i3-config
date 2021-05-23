@@ -171,8 +171,8 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 bindsym XF86MonBrightnessUp exec xbacklight -inc 10
 bindsym XF86MonBrightnessDown exec xbacklight -dec 10
 
-bindsym $mod+F5 exec xbacklight -inc 10
-bindsym $mod+F6 exec xbacklight -dec 10
+bindsym $mod+F5 exec xbacklight -dec 10
+bindsym $mod+F6 exec xbacklight -inc 10
 
 mode "quit" {
         bindsym s exec --no-startup-id sudo /usr/sbin/pm-suspend; mode "default"
