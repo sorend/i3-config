@@ -16,4 +16,8 @@ nm-applet & disown
 # megasync
 megasync & disown
 
+# polybar
 . $HOME/.config/polybar/toggle.sh
+
+# xautolock
+xautolock -time 5 -locker $HOME/.config/i3/i3-lock.sh & disown
