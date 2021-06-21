@@ -73,12 +73,12 @@ font-2 = siji:pixelsize=10;1
 
 modules-left = i3 xwindow
 modules-center = 
-modules-right = filesystem pulseaudio xkeyboard memory cpu wlan battery temperature date
+modules-right = pulseaudio xkeyboard memory cpu wlan battery temperature date
 
 tray-position = right
 tray-padding = 0
 tray-detached = false
-override-redirect = true
+override-redirect = false
 ; wm-restack = i3
 ;tray-background = #0063ff
 
